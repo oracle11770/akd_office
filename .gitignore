@@ -1,0 +1,7 @@
+﻿# Web站点忽略的目录
+node_modules
+.vscode
+.idea/
+.idea/workspace.xml
+/static/css/test.css
+/static/mcss/test.debug.css
