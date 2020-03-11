@@ -8,32 +8,30 @@
 </head>
 
 <body>
-    <video width="320" height="240" autoplay="autoplay"  controls loop>
+    <video width="320" height="240" autoplay="autoplay"  controls>
         <source id="xyy" src="../video/1.mp4" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
     </video>
 </body>
 <script>
     var xindex = 1
+    var count = 100
     var myVideo = document.getElementById('xyy')
-     myVideo.addEventListener("timeupdate", function () {
-            var timeDisplay;
-            //用秒数来显示当前播放进度
-            timeDisplay = Math.floor(myVideo.currentTime);
-            console.log("===========",Math.floor(myVideo.currentTime))
-
-            //当视频播放到 4s的时候做处理
-            if (timeDisplay == 4) {
-                //处理代码
+    var timer = setInterval(function(){
+        console.log(1111111)
+        if(count > 100){
+            clearInterval(timer)
+        }
+        if (count%15 == 0) {
+            xindex++
+            if (xindex > 3) {
+                xindex = 1
             }
-    }, false);   
-     myVideo.addEventListener("ended", function () {
-        console.log(111111111)
-         xindex++
-         if(xindex > 3){
-             xindex = 1
-         }
-        myVideo.src = "../video/"+xindex+".mp4"
-    }); 
+            myVideo.src = "../video/" + xindex + ".mp4"
+            myVideo.play()
+            console.log(2222222222, myVideo.src)
+        }
+    },1000)
+    
 </script>
 </html>

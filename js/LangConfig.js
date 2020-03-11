@@ -16,7 +16,7 @@ var LangConfig = {
 		kr: "팀 소개"
 	},
 	oneBase: {
-		cn: "基于Blockchain的新型电子商务营销平台",
+		cn: "奥企达是一家集展览展示、主场服务、会议会务、广告制作、营销策划、文化活动、演艺经纪、舞美音响为一体的综合性的专业广告公司；同时从展览设计、展厅设计、会议策划、工厂施工于一体的专业性展览公司。",
 		en: "New E-commerce Marketing Platform based on Blockchain ",
 		kr: "블록체인 기반 전자상거래 배당 코인"
 	},
@@ -26,34 +26,34 @@ var LangConfig = {
 		kr: "우리에 대해 알아보기"
 	},
 	oneIntro: {
-		cn: "Shopping Mall Demo",
+		cn: "申报入口",
 		en: "Shopping Mall Demo",
 		kr: "Shopping Mall Demo"
 	},
 	twoShop: {
-		cn: "ONEJOY",
-		en: "OneJoy Shopping Mall",
-		kr: "ONEJOY 몰"
+		cn: "AOQIDA",
+		en: "AOQIDA Shopping Mall",
+		kr: "AOQIDA 몰"
 	},
 	shopIntro1: {
-		cn: "OneJoy项目运用区块链技术，打造国际化的 “一元购物”营销平台。“一元购物”的商业模式源自中国，它是指把一件商品分为以1为基数的N份，顾客每花费1元即可获得一个物品码（1份=1元=1物品码）一件商品可以购买多次或一次购买多份。当多位或一位顾客物品运筹金额达到商品价格时即开奖，挑选出一幸运筹码。",
-		en: "OneJoy Project uses Blockchain technology to make internationalized “one Yuan shopping” business model comes true. “One Yuan Shopping”’s business model comes from China. It means dividing one item into N shares based on ONE. Everytime customer spends one yuan; he or she can get one item code (ONE=1Yuan= one item code); in addition, one item can be purchased multiple times by multiple customers or one customer can purchase the item’s code multiple times. When multiple customers or one customer’s total collecting funds reach the item’s price. We will draw the winning item code.",
-		kr: "ONEJOY몰 운영 방식은 기존 “천원쇼핑몰” 모델이 더욱 진화된 형태이며 다음과 같습니다. ONEJOY몰은 일반적인 보통의 쇼핑몰과 같이 상품과, 시중에서 사용할 수 있는 할인권을 판매하고 이를 구매하는 고객에게 마일리지 형태의 E-POINT를 제공합니다. 고객은 E-POINT로 경품에 응모할수 있으며, 그에 추가하여 가상화폐 ONEJOY TOKEN에 대한 채굴권을 부여받습니다.또한, ONEJOY TOKEN을 보유하고 계신 분들께는 ONEJOY몰에서 경품을 통해 발생한 수익의 일부를 배당하는 형태로 운영되는 방식입니다."
+		cn: " 奥企达(北京)国际会展有限公司成立于2014年05月13日，注册地位于北京市房山区良乡长虹西路翠柳东街1号-2596，法人代表为张哲。经营范围包括承办展览展示；会议服务；组织文化艺术交流活动（演出除外）；设计、制作、代理、发布广告；企业形象策划；市场营销策划；珠宝首饰设计；企业管理咨询；婚庆服务；礼仪服务；家居装饰及设计；园林绿化设计。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本区产业政策禁止和限制类项目的经营活动。）奥企达(北京)国际会展有限公司具有2处分支机构。",
+		en: "AOQIDA Project uses Blockchain technology to make internationalized “one Yuan shopping” business model comes true. “One Yuan Shopping”’s business model comes from China. It means dividing one item into N shares based on ONE. Everytime customer spends one yuan; he or she can get one item code (ONE=1Yuan= one item code); in addition, one item can be purchased multiple times by multiple customers or one customer can purchase the item’s code multiple times. When multiple customers or one customer’s total collecting funds reach the item’s price. We will draw the winning item code.",
+		kr: "AOQIDA몰 운영 방식은 기존 “천원쇼핑몰” 모델이 더욱 진화된 형태이며 다음과 같습니다. AOQIDA몰은 일반적인 보통의 쇼핑몰과 같이 상품과, 시중에서 사용할 수 있는 할인권을 판매하고 이를 구매하는 고객에게 마일리지 형태의 E-POINT를 제공합니다. 고객은 E-POINT로 경품에 응모할수 있으며, 그에 추가하여 가상화폐 AOQIDA TOKEN에 대한 채굴권을 부여받습니다.또한, AOQIDA TOKEN을 보유하고 계신 분들께는 AOQIDA몰에서 경품을 통해 발생한 수익의 일부를 배당하는 형태로 운영되는 방식입니다."
 	},
 	shopRule: {
-		cn: "OneJoy Token的挖矿及分红机制",
-		en: "OneJoy Token’s Mining and Dividends Mechanism",
-		kr: "ONEJOY Token의 채굴 및 배당제도"
+		cn: "AOQIDA Token的挖矿及分红机制",
+		en: "AOQIDA Token’s Mining and Dividends Mechanism",
+		kr: "AOQIDA Token의 채굴 및 배당제도"
 	},
 	shopIntro2: {
-		cn: "OneJoy项目将总共发行100亿枚平台币，且永不增发，平台币名称为OneJoyToken,以下简称OJT。我们定义的OJT属性为“权益通证“（Equity Token）。也就是说OJT即代表OneJoy平台的股份，用户购买OJT将永久享有平台收益的分红权。OneJoy平台采用每日分红的方式，每天会将平台前一天的“佣金”收入100%分给全部OJT持有者。",
-		en: "OneJoy Project will issue 10 billion platform tokens totally, and we will never issue more tokens. Our platform token is called OneJoy Token, simplified as OJT. We definite OJT’s nature as Equity Token. In an other word, OJT represents OneJoy Platform’s stock.If users purchase OJT, they will enjoy OJT platform’s earnings’dividend right forever. OneJoy platform uses daily dividend rule. We will distribute the total 'commission' of last day of the platform to all OJT owners.",
-		kr: "OneJoy프로젝트는 총 100억개의 OneJoy 플랫폼 코인을 발행할 것이며, 더 이상은 발행하지 않을 것이다. 플랫폼 코인명은 OneJoy Token (OneJoy Token)이다. 이하 OJT라고 칭한다. 우리가 정의하는 OJT의 속성은 Equity Token이다. OJT 는 OneJoy 플랫폼의 주 식을 대표 하며, OJT를 구매하면  계속 적으로 OneJoy 플랫폼 수익 의 배당권을 보유 한다. 원조이 플랫폼은 매일 배당금 을 주 는 방식을 채택 하고 있으며 플랫폼의 전날  수수료 수입은 매일 100% OJT 보유 자에게 배당하여 준 다."
+		cn: "AOQIDA项目将总共发行100亿枚平台币，且永不增发，平台币名称为AOQIDAToken,以下简称OJT。我们定义的OJT属性为“权益通证“（Equity Token）。也就是说OJT即代表AOQIDA平台的股份，用户购买OJT将永久享有平台收益的分红权。AOQIDA平台采用每日分红的方式，每天会将平台前一天的“佣金”收入100%分给全部OJT持有者。",
+		en: "AOQIDA Project will issue 10 billion platform tokens totally, and we will never issue more tokens. Our platform token is called AOQIDA Token, simplified as OJT. We definite OJT’s nature as Equity Token. In an other word, OJT represents AOQIDA Platform’s stock.If users purchase OJT, they will enjoy OJT platform’s earnings’dividend right forever. AOQIDA platform uses daily dividend rule. We will distribute the total 'commission' of last day of the platform to all OJT owners.",
+		kr: "AOQIDA프로젝트는 총 100억개의 AOQIDA 플랫폼 코인을 발행할 것이며, 더 이상은 발행하지 않을 것이다. 플랫폼 코인명은 AOQIDA Token (AOQIDA Token)이다. 이하 OJT라고 칭한다. 우리가 정의하는 OJT의 속성은 Equity Token이다. OJT 는 AOQIDA 플랫폼의 주 식을 대표 하며, OJT를 구매하면  계속 적으로 AOQIDA 플랫폼 수익 의 배당권을 보유 한다. 원조이 플랫폼은 매일 배당금 을 주 는 방식을 채택 하고 있으며 플랫폼의 전날  수수료 수입은 매일 100% OJT 보유 자에게 배당하여 준 다."
 	},
 	shops: {
 		cn: "商城",
 		en: "Shops",
-		kr: "ONEJOY 몰"
+		kr: "AOQIDA 몰"
 	},
 	mechanism: {
 		cn: "机制",
@@ -281,9 +281,9 @@ var LangConfig = {
 		kr: "사업진행일정표"
 	},
 	time1: {
-		cn: "2018年08月—12月，ONEJOY项目开发 OJT Token研发",
-		en: "Aug.2018 to Dec. 2018 OneJoy Shopping Platform Preparing；OJT Token’s Researching and Development",
-		kr: "2018년 08월- 12월 ONEJOY 쇼핑몰 플랫폼 OJT 토큰 연구 개발"
+		cn: "2018年08月—12月，AOQIDA项目开发 OJT Token研发",
+		en: "Aug.2018 to Dec. 2018 AOQIDA Shopping Platform Preparing；OJT Token’s Researching and Development",
+		kr: "2018년 08월- 12월 AOQIDA 쇼핑몰 플랫폼 OJT 토큰 연구 개발"
 	},
 	time2: {
 		cn: "2019年01月01日—31日 Private sale私募",
@@ -301,9 +301,9 @@ var LangConfig = {
 		kr: "2019년 03월 15일— 25일 IEO"
 	},
 	time5: {
-		cn: "2019年03月25日 ONEJOY商城上线",
-		en: "Mar. 25th 2019 ONEJOY Shopping Mall Open",
-		kr: "2019년 3월 25일 ONEJOY Shopping Mall Open"
+		cn: "2019年03月25日 AOQIDA商城上线",
+		en: "Mar. 25th 2019 AOQIDA Shopping Mall Open",
+		kr: "2019년 3월 25일 AOQIDA Shopping Mall Open"
 	},
 	time6: {
 		cn: "2019年04月10日 登陆交易所",
@@ -346,9 +346,9 @@ var LangConfig = {
 		kr: "주소: 서울시 서초구 서리풀길4, 4층"
 	},
 	website: {
-		cn: "官方网站:onejoytoken.com",
-		en: "Official Website：onejoytoken.com",
-		kr: "포 털 사이트: onejoytoken.com"
+		cn: "官方网站:AOQIDAtoken.com",
+		en: "Official Website：AOQIDAtoken.com",
+		kr: "포 털 사이트: AOQIDAtoken.com"
 	},
 	icoProcess: {
 		cn: "ICO进度",
@@ -386,9 +386,9 @@ var LangConfig = {
 		kr: "사람"
 	},
 	'muziTitle': {
-		cn: "ONEJOY 募资",
-		en: "ONEJOY Fundraising",
-		kr: "ONEJOY펀딩"
+		cn: "AOQIDA 募资",
+		en: "AOQIDA Fundraising",
+		kr: "AOQIDA펀딩"
 	},
 	'selMoney': {
 		cn: "结算类型:",
@@ -587,15 +587,15 @@ var LangConfig = {
     en: "김수현",
     kr: "김수현"
 	},
-	'ONEJOYTOKENAddress': {
+	'AOQIDATOKENAddress': {
     cn: "OJT地址:",
     en: "OJT wallet address:",
     kr: "OJT수령지갑주소:"
 	},
-	'ONEJOYTOKEN':{
-    cn: "ONEJOY TOKEN 地址:",
-    en: "ONEJOY TOKEN Address:",
-    kr: "ONEJOY TOKEN 주소:"
+	'AOQIDATOKEN':{
+    cn: "AOQIDA TOKEN 地址:",
+    en: "AOQIDA TOKEN Address:",
+    kr: "AOQIDA TOKEN 주소:"
 	},
 	'moneyNumber': {
     cn: "金  额:",
@@ -634,9 +634,9 @@ var LangConfig = {
   },
 	//对应月份添加的事件
 	'DecEvent1': {
-	cn: "2018年8月—12月ONEJOY购物中心平台OJT Token研发",
-    en: "Aug. 2018 to Dec. 2018 OneJoy Shopping Platform Preparing；OJT Token’s Researching and Development",
-    kr: "2018년8월~12월 ONEJOY쇼핑몰 플랫폼 OJT토큰 연구 개발"
+	cn: "2018年8月—12月AOQIDA购物中心平台OJT Token研发",
+    en: "Aug. 2018 to Dec. 2018 AOQIDA Shopping Platform Preparing；OJT Token’s Researching and Development",
+    kr: "2018년8월~12월 AOQIDA쇼핑몰 플랫폼 OJT토큰 연구 개발"
 	},
   JanEvent1: {
     cn: "2019年01月02日—2月28日 Private sale私募",
@@ -659,9 +659,9 @@ var LangConfig = {
     kr: "2019.3.26 ~ 4.5 Public Sale 2차"
   },
   AprEvent2: {
-    cn: "2019年4月10日OneJoy商城测试版开放",
-    en: "Apr. 10th. 2019 OneJoyMall Beta Open",
-    kr: "2019.4.10 OneJoyMall Beta Open"
+    cn: "2019年4月10日AOQIDA商城测试版开放",
+    en: "Apr. 10th. 2019 AOQIDAMall Beta Open",
+    kr: "2019.4.10 AOQIDAMall Beta Open"
   },
   AprEvent3: {
     cn: "2019年04月15日—25日 IEO",
@@ -669,9 +669,9 @@ var LangConfig = {
     kr: "2019.4.15 ~ 4.25 IEO"
   },
   AprEvent4: {
-    cn: "2019年4月30日ONEJOY商城上线",
-    en: "Apr. 30th. 2019 ONEJOY Shopping Mall Open",
-    kr: "2019.4.30 OneJoyMall 공식 오픈"
+    cn: "2019年4月30日AOQIDA商城上线",
+    en: "Apr. 30th. 2019 AOQIDA Shopping Mall Open",
+    kr: "2019.4.30 AOQIDAMall 공식 오픈"
   },
   Verification: {
     cn: "确认",

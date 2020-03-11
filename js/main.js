@@ -32,7 +32,8 @@
         resistanceRatio: 0,
         paginationCustomRender: function(swiper, current, total) {
             var paginationHtml = "";
-            var bar = [ '사전판매','홈페이지', '기능 소개', '팀 소개', '자문기구', '타임 라인'];
+            // var bar = [ '사전판매','홈페이지', '기능 소개', '팀 소개', '자문기구', '타임 라인'];
+          var bar = ['首页', '公司简介', '项目案例', '联系我们','展会时间','申报入口']
             for(var i = 0; i < total; i += 1) {
                 if(i === (current - 1)) {
                     paginationHtml += '<div class="swiper-paginations swiper-active"><p class="pagin-line"><p><span>' + bar[i] + '</span></div>'
@@ -177,7 +178,7 @@
         initlang($(this).html().toLowerCase());
         $('.book').attr('href', 'http://doc.onejoytoken.com/OneJoyWhitePaper/OneJoyToken WhitePaper-' + $(this).html().toLowerCase() + '.pdf')
     });
-    initlang("kr", true);
+    initlang("cn", true);
     loadMuzi();
     // 换算规格的动态文字
     function loadTxt(that, LangConfig) {

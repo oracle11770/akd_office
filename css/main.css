@@ -232,7 +232,11 @@ a:hover {
     margin-right: 0.052083333333333336rem
 }
 .text1 {
-    font-size: 0.29rem;
+    margin:0 auto;
+    width: 50%;
+    text-indent: 0.4rem;
+    text-align: left;
+    font-size: 0.20rem;
     font-family: PingFang-SC-Regular;
     font-weight: bold;
     text-shadow: 0.11979166666666667rem -0.109375rem 0 #f5e8e821
@@ -248,6 +252,8 @@ a:hover {
     font-weight: bold
 }
 .text4 {
+    text-indent: 0.4rem;
+    text-align: left;
     width: 90%;
     max-width: 6.5rem;
     font-size: 0.14rem;
@@ -262,7 +268,7 @@ p.menu-wd {
     font-size: 0.11rem
 }
 .btns {
-    margin-top: 0.45rem
+    margin-top: 0.25rem
 }
 .btn1 {
     padding: 0 0.078125rem;
