@@ -33,7 +33,7 @@
         paginationCustomRender: function(swiper, current, total) {
             var paginationHtml = "";
             // var bar = [ '사전판매','홈페이지', '기능 소개', '팀 소개', '자문기구', '타임 라인'];
-          var bar = ['首页', '公司简介', '项目案例', '联系我们','展会时间','申报入口']
+          var bar = ['公司简介', '服务内容', '我们的优势', '成功案例','关于我们']
             for(var i = 0; i < total; i += 1) {
                 if(i === (current - 1)) {
                     paginationHtml += '<div class="swiper-paginations swiper-active"><p class="pagin-line"><p><span>' + bar[i] + '</span></div>'
@@ -113,14 +113,19 @@
     }
     $('.team-person .sm-img').click(function(e) {
         e.stopPropagation();
-        $('.person-intro .per-detail').eq($(this).index()).addClass('show').siblings().removeClass('show');
-        $('.b-img .per-img').eq($(this).index()).addClass('show').siblings().removeClass('show');
-        $('.s-detail .detail').eq($(this).index()).addClass('show').siblings().removeClass('show');
-        $('.man .man-detail').eq($(this).index()).addClass('show').siblings().removeClass('show');
+        var imgsObj = [['bj-case1.jpg', 'bj-case2.jpg', 'bj-case3.jpg', 'bj-case4.jpg'],
+          ['hz-case1.jpg', 'hz-case2.jpg', 'hz-case3.jpg', 'hz-case4.jpg'],
+          ['water-case1.jpg', 'water-case2.jpg', 'water-case3.jpg'],
+          ['zb-case1.jpg', 'zb-case2.jpg', 'zb-case3.jpg', 'zb-case4.jpg',]]
+        var imgs = imgsObj[$(this).index()]
+        var html = []
+        imgs.forEach(function(item){
+          html.push('<img class="per-img show" width="100%" src="img/'+ item +'" alt="" />')
+        })
+        $('#showImg').html(html)
         $(this).find('img').addClass('scale2');
         $(this).siblings().find('img').removeClass('scale2')
 
-        $('.personContent .personItem').eq($(this).index()).addClass('show').siblings().removeClass('show');
     });
     $('.circle-icon .icon-intro').click(function() {
         $('.intro-wd .into-txt').eq($(this).index()).addClass('show').siblings().removeClass('show');

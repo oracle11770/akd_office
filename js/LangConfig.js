@@ -16,7 +16,7 @@ var LangConfig = {
 		kr: "팀 소개"
 	},
 	oneBase: {
-		cn: "奥企达是一家集展览展示、主场服务、会议会务、广告制作、营销策划、文化活动、演艺经纪、舞美音响为一体的综合性的专业广告公司；同时从展览设计、展厅设计、会议策划、工厂施工于一体的专业性展览公司。",
+		cn: "公司成立于2005年，是一家集展览展示、主场服务、会议会务、广告制作、营销策划、文化活动、演艺经纪、舞美音响为一体的综合性的专业广告公司，同时从展览设计、展厅设计、会议策划、工厂施工于一体的专业性展览公司。",
 		en: "New E-commerce Marketing Platform based on Blockchain ",
 		kr: "블록체인 기반 전자상거래 배당 코인"
 	},
@@ -634,7 +634,7 @@ var LangConfig = {
   },
 	//对应月份添加的事件
 	'DecEvent1': {
-	cn: "2018年8月—12月AOQIDA购物中心平台OJT Token研发",
+	cn: "",
     en: "Aug. 2018 to Dec. 2018 AOQIDA Shopping Platform Preparing；OJT Token’s Researching and Development",
     kr: "2018년8월~12월 AOQIDA쇼핑몰 플랫폼 OJT토큰 연구 개발"
 	},

@@ -28,7 +28,7 @@ body {
     z-index: 20;
     left: 0.2rem;
     top: 1rem;
-    width: 0.78125rem
+    width: 0.87125rem
 }
 .swiper-paginations {
     height: 0.20833333333333334rem;
@@ -234,9 +234,9 @@ a:hover {
 .text1 {
     margin:0 auto;
     width: 50%;
-    text-indent: 0.4rem;
+    /* text-indent: 0.4rem; */
     text-align: left;
-    font-size: 0.20rem;
+    font-size: 0.16rem;
     font-family: PingFang-SC-Regular;
     font-weight: bold;
     text-shadow: 0.11979166666666667rem -0.109375rem 0 #f5e8e821
@@ -442,7 +442,9 @@ p.menu-wd {
     padding: 0.15625rem 0
 }
 .per-img {
-    display: none
+    margin-right:0.11rem;
+    width: 100%;
+    height: 100%;
 }
 .icon-intro {
     display: inline-block;
@@ -519,11 +521,20 @@ p.menu-wd {
     overflow: hidden
 }
 .sm-img {
+    position: relative;
     width: 0.56rem;
     height: 0.6rem;
     text-align: center;
     vertical-align: middle;
-    float: left
+}
+.sm-img p {
+    position: absolute;
+    top: 12px;
+    left: 4px;
+    font-size:16px;
+    font-family:PingFangSC;
+    font-weight:600;
+    color:rgba(255,255,255,1);
 }
 .circle-img {
     float: left;
@@ -1451,26 +1462,36 @@ input {
     z-index: 999;
 }
 .personBottom{
-    width: 3.4375rem;
-    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .personHeader{
     width: 3.4rem;
     margin: -0.10416666666666667rem auto 0 auto;
 }
+.tit-mode{
+    display: flex;
+    justify-content: center;
+}
 .show{
     display: block;
 }
 .personItem{
-    width: 3.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 1.7291666666666667rem;
-    padding: 0.10416666666666667rem;
-    display: none;
+    padding-top: 0.10416666666666667rem;
 }
 .personImg{
-    width:0.9635416666666666rem;
-    height:1.3697916666666667rem;
-    margin-right: 0.15625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1.5635416666666666rem;
+    height:1.0697916666666667rem;
 }
 .perDetail{
     width: 2.0833333333333335rem;
