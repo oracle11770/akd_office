@@ -182,8 +182,8 @@ ul li {
     cursor: pointer
 }
 .logo-img {
-    width: 1.1458333333333333rem;
-    height: 0.8333333333333334rem;
+    width: 0.5458333333333333rem;
+    height: 0.6333333333333334rem;
 }
 .menu-img {
     width: 0.23rem
@@ -239,7 +239,7 @@ a:hover {
     font-size: 0.16rem;
     font-family: PingFang-SC-Regular;
     font-weight: bold;
-    text-shadow: 0.11979166666666667rem -0.109375rem 0 #f5e8e821
+    /* text-shadow: 0.11979166666666667rem -0.109375rem 0 #f5e8e821 */
 }
 .text2 {
     font-size: 0.15rem;
