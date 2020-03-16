@@ -1540,9 +1540,9 @@ input {
 }
 .newText4{
     width: 65%;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
-    padding-left: 1.60625rem;
+    /* padding-left: 1.60625rem; */
 }
 
 

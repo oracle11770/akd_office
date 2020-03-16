@@ -33,7 +33,7 @@
         paginationCustomRender: function(swiper, current, total) {
             var paginationHtml = "";
             // var bar = [ '사전판매','홈페이지', '기능 소개', '팀 소개', '자문기구', '타임 라인'];
-          var bar = ['公司简介', '服务内容', '我们的优势', '成功案例','关于我们']
+          var bar = ['公司简介', '服务内容', '我们的优势', '成功案例','关于我们','展会时间']
             for(var i = 0; i < total; i += 1) {
                 if(i === (current - 1)) {
                     paginationHtml += '<div class="swiper-paginations swiper-active"><p class="pagin-line"><p><span>' + bar[i] + '</span></div>'
