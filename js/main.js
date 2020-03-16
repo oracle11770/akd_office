@@ -96,6 +96,15 @@
         $('.logo').css('display','block') */
     });
 
+
+  var swiperSer = new Swiper('.swiper-container-ser', {
+      direction: 'horizontal',
+      autoplay: 5000,
+      pagination: '.swiper-pagination-ser',
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+    })        
+
     function hover() {
         console.log('hover');
         console.log(isMobil, '1111111111111111')
@@ -457,36 +466,6 @@
 
     // 加载募资数据
     function loadMuzi(){
-        var lang = langObj[$('.chose-lang').text().toLowerCase()]
-        $.ajax({
-            url: OFFICIAL_SITE_API + '/site/get-fund-info',
-            type: 'get',
-            dataType: 'json',
-            cache: false,
-            data: {lang:lang},
-            success: function(data) {
-                if(data.code === 200){
-                var tempObj = data.data
-                $('#percentId').text((parseFloat(tempObj.percent).toFixed(2))*100+ '%')
-                $('.muzi-num-span').text(parseInt(tempObj.hasPayNum).toLocaleString())
-                // $('#muziTotal').text(`/${parseInt(tempObj.totalOnlineToken).toLocaleString()} OJT`)
-                $('#muziTotal').text('/'+parseInt(tempObj.totalOnlineToken).toLocaleString()+' OJT')
-                $('.muzi-peoples span').text(tempObj.userNum)
-                // 改到ETH收款地址处
-                // $('#tokenId').val(tempObj.toOjtAddress)
-                $('#AddrId').val(tempObj.toOjtAddress)
-                $('#bankId').val(tempObj.toOjtBank)
-                currentRate = tempObj.currentRate
-        // $('#ethLabId').text(`1 OJT =${parseFloat(currentRate.eth).toFixed(8)} ETH, `)
-        // $('#moneyLabId').text(`1 OJT =${currentRate.cash} KRW`)
-                $('.muzi-percentage').animate({
-                    width: (tempObj.percent)*100 + '%'
-                    }, {duration: 2000, })
-                }else{
-                $.toast({'title': data.msg})
-                }
-            }
-        })
     }
 
     var timeStop,
