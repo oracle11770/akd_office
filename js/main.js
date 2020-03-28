@@ -100,10 +100,22 @@
   var swiperSer = new Swiper('.swiper-container-ser', {
       direction: 'horizontal',
       autoplay: 5000,
+      grabCursor: true,
       pagination: '.swiper-pagination-ser',
       nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
+      prevButton: '.swiper-button-prev'
     })        
+
+    var caseSwiper = new Swiper('.swiper-container-case', {
+      autoplay: 5000,
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 100,
+      pagination: '.swiper-pagination-case',
+      direction: 'horizontal',
+      grabCursor: true,
+      centeredSlides: false
+    });
 
     function hover() {
         console.log('hover');
@@ -122,16 +134,26 @@
     }
     $('.team-person .sm-img').click(function(e) {
         e.stopPropagation();
-        var imgsObj = [['bj-case1.jpg', 'bj-case2.jpg', 'bj-case3.jpg', 'bj-case4.jpg'],
-          ['hz-case1.jpg', 'hz-case2.jpg', 'hz-case3.jpg', 'hz-case4.jpg'],
-          ['water-case1.jpg', 'water-case2.jpg', 'water-case3.jpg'],
-          ['zb-case1.jpg', 'zb-case2.jpg', 'zb-case3.jpg', 'zb-case4.jpg',]]
+      var imgsObj = [['bj-case1.jpg', 'bj-case2.jpg', 'bj-case3.jpg', 'bj-case4.jpg', 'bj-case5.jpg', 'bj-case6.jpg'],
+        ['hz-case1.jpg', 'hz-case2.jpg', 'hz-case3.jpg', 'hz-case4.jpg', 'hz-case5.jpg'],
+        ['water-case1.jpg', 'water-case2.jpg', 'water-case3.jpg', 'water-case4.jpg', 'water-case5.jpg', 'water-case6.jpg', 'water-case7.jpg', 'water-case8.jpg'],
+        ['zb-case1.jpg', 'zb-case2.jpg', 'zb-case3.jpg', 'zb-case4.jpg', 'zb-case5.jpg', 'zb-case6.jpg',]]
         var imgs = imgsObj[$(this).index()]
         var html = []
         imgs.forEach(function(item){
-          html.push('<img class="per-img show" width="100%" src="img/'+ item +'" alt="" />')
+          html.push('<div class="swiper-slide"><img src="img/'+item+'" alt="" /></div>')
         })
         $('#showImg').html(html)
+        caseSwiper = new Swiper('.swiper-container-case', {
+          autoplay: 5000,
+          loop: true,
+          slidesPerView: 4,
+          spaceBetween: 100,
+          pagination: '.swiper-pagination-case',
+          direction: 'horizontal',
+          grabCursor: true,
+          centeredSlides: false
+        });
         $(this).find('img').addClass('scale2');
         $(this).siblings().find('img').removeClass('scale2')
 

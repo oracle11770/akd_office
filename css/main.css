@@ -1478,6 +1478,10 @@ input {
 .show{
     display: block;
 }
+.swiper-container-case{
+    width: 80%;
+    overflow: hidden;
+}
 .personItem{
     display: flex;
     justify-content: center;
